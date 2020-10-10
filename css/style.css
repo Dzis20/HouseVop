@@ -1,0 +1,81 @@
+body {
+    background-color: #242B33;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #D4C17F;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.header {
+    background-image: url('../img/header-background.png');
+    height: 840px;
+    padding-top: 30px;
+    padding-bottom: 74px;
+}
+.header-top {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 200px;
+}
+.burger-menu {
+    display: none;
+}
+ul.main-nav {
+    padding-top: 25px;
+    display: flex;
+}
+ul.main-nav li {
+    margin-left: 40px;
+}
+ul.main-nav li:first-child{
+    margin-left: 0;
+}
+ul.main-nav li a {
+    font-size: 14px;
+    letter-spacing: 5%;
+    color: #fff;
+}
+
+.header-middle {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.header-middle h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 45px;
+}
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 605.85px;
+    margin: 0 auto;
+}
+.header-bottom img {
+    display: inline-block;
+    
+}
+.header-bottom img:first-child {
+    margin-right: 18.5px;
+}
+.header-bottom img:last-child {
+    margin-right: 15px;
+}
+.header-bottom p:last-child {
+    padding-right: 70px;
+}
+
