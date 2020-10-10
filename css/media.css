@@ -1,8 +1,13 @@
 @media (max-width: 1200px) {
-    
+    .container {
+        max-width: 990px;
+    }
 }
 @media (max-width: 990px) {
-    
+    .container {
+        max-width: 767px;
+        padding: 0 20px;
+    }
 }
 @media (max-width: 767px) {
     body.active {
