@@ -165,14 +165,14 @@ ul.main-nav li a {
     font-weight: normal;
 }
 
-form {
+form.look-form {
     width: 100%;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
 }
 
-.look-form input {
+input {
     width: 250px;
     height: 50px;
     /* margin-left: 35px; */
@@ -187,14 +187,14 @@ form {
     font-weight: normal;
     font-size: 14px;
     line-height: 27px;
-    color: #bebebe;
+    color: #070707;
     text-align: center;
 }
-#phone, #form-button {
+form.look-form #phone, form.look-form #form-button {
     margin-left: 35px;
 }
 
-.look-form p {
+form.look-form p, form.question-form p {
     line-height: 16px;
     display: inline-block;
     width: 255px;
@@ -233,5 +233,51 @@ form {
 }
 .map h2 {
     margin-bottom: 100px;
+}
+
+.question h2 {
+    margin-bottom: 61px;
+}
+form.question-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 180px;
+}
+
+.footer {
+    background: #2D343C;
+    padding-top: 60px;
+    padding-bottom: 51px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-nav li.footer-nav-item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    margin-bottom: 15px;
+}
+.footer-nav li.footer-nav-item a {
+    color: #fff;
+}
+.footer-nav li.footer-nav-item.email-item {
+    margin-bottom: 20px;
+}
+.footer-nav li.footer-nav-item.email-item span {
+    color: #D4C17F
+}
+
+.footer-social-btns {
+    display: flex;
+}
+.footer-social-btns a {
+    margin-right: 20px;
 }
 
