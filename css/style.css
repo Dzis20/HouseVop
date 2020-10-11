@@ -15,6 +15,7 @@ h1, h2 {
 }
 .header {
     background-image: url('../img/header-background.png');
+    background-repeat: no-repeat;
     padding-top: 30px;
     padding-bottom: 74px;
 }
@@ -24,8 +25,12 @@ h1, h2 {
     align-items: flex-start;
     margin-bottom: 200px;
 }
+img.logo {
+    z-index: 3
+}
 .burger-menu {
     display: none;
+    
 }
 ul.main-nav {
     padding-top: 25px;
@@ -90,7 +95,6 @@ ul.main-nav li a {
 .adv-list {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     max-width: 794px;
     margin: 0 auto;
 }
@@ -139,9 +143,9 @@ ul.main-nav li a {
 } */
 
 .look {
-    height: 560px;
+    /* height: 560px; */
     background-image: url('../img/look-background.png');
-    padding-top: 180px;
+    padding: 180px 0;
 }
 .look .look-content {
     display: flex;
@@ -173,8 +177,9 @@ form.look-form {
 }
 
 input {
-    width: 250px;
+    width: 255px;
     height: 50px;
+    border: none
     /* margin-left: 35px; */
 }
 #name, #phone {
@@ -255,6 +260,14 @@ form.question-form {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+}
+.footer-content img.logo {
+    margin-bottom: 30px;
+}
+.footer-menu {
+    display: flex;
+    width: 74%;
+    justify-content: space-between;
 }
 .footer-nav li.footer-nav-item {
     font-style: normal;
