@@ -5,6 +5,9 @@
     .apart-item {
         width: 49%;
     }
+    form.look-form input, form.look-form p, form.question-form input, form.question-form p {
+        margin-bottom: 10px;
+    }
 }
 @media (max-width: 990px) {
     .container {
@@ -19,12 +22,14 @@
         margin-bottom: 10px;
         width: 49%;
     }
+    img.apart-item-img {
+        width: 100%;
+    }
+
     .look-text {
         padding-top: 0px;
     }
-    form.look-form input, form.look-form p, form.question-form input, form.question-form p {
-        margin-bottom: 10px;
-    }
+    
 }
 @media (max-width: 767px) {
     body.lock {
